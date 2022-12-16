@@ -47,6 +47,6 @@ while(temp):
     logger.info("Time is {}, iteration is --> {}".format(time.time(), i))
     i+=1
     time.sleep(5)
-    if i == 100:
+    if i == 1000:
         logger.info("I am done, stopping the container after 8 mins. Good bye :)")
         break
